@@ -1,23 +1,42 @@
 [
   {
-    "url": "https://example-github-pages.com",
+    "url": "https://ericholt.dev/",
     "timeout": 10,
     "retries": 1
   },
   {
-    "url": "https://example-aws-site.com",
+    "url": "http://32.192.175.42:8000/",
     "timeout": 10,
     "retries": 1
   },
   {
-    "url": "https://example-azure-docker.com",
+    "url": "https://eholt723.github.io/ai-tutor-langgraph/",
+    "timeout": 10,
+    "retries": 1
+  },
+  {
+    "url": "https://eholt723.github.io/transport-llm/",
+    "timeout": 10,
+    "retries": 1
+  },
+  {
+    "url": "https://eholt723.github.io/warehousebot-rl/",
+    "timeout": 10,
+    "retries": 1
+  },
+  {
+    "url": "https://eholt723-traceagent.hf.space/",
     "timeout": 60,
     "retries": 2
   },
   {
-    "url": "https://huggingface.co/spaces/username/space-name",
+    "url": "https://eholt723-reconagent.hf.space/",
     "timeout": 60,
-    "retries": 2,
-    "check_body": "some known string from the loaded app"
+    "retries": 2
+  },
+  {
+    "url": "https://eholt723-agentflow.hf.space/",
+    "timeout": 60,
+    "retries": 2
   }
 ]
