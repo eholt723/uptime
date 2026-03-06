@@ -27,16 +27,19 @@
   {
     "url": "https://eholt723-traceagent.hf.space/",
     "timeout": 60,
-    "retries": 2
+    "retries": 2,
+    "check_body": "<title>TraceAgent</title>"
   },
   {
     "url": "https://eholt723-reconagent.hf.space/",
     "timeout": 60,
-    "retries": 2
+    "retries": 2,
+    "check_body": "<title>ReconAgent</title>"
   },
   {
     "url": "https://eholt723-agentflow.hf.space/",
     "timeout": 60,
-    "retries": 2
+    "retries": 2,
+    "check_body": "<title>AgentFlow</title>"
   }
 ]
