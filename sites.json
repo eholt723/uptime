@@ -41,5 +41,11 @@
     "timeout": 60,
     "retries": 2,
     "check_body": "<title>AgentFlow</title>"
+  },
+  {
+    "url": "https://eholt723-agentmesh.hf.space/",
+    "timeout": 60,
+    "retries": 2,
+    "check_body": "<title>AgentMesh</title>"
   }
 ]
