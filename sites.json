@@ -47,5 +47,11 @@
     "timeout": 60,
     "retries": 2,
     "check_body": "<title>AgentMesh</title>"
+  },
+  {
+    "url": "https://eholt723-triageagent.hf.space/",
+    "timeout": 60,
+    "retries": 2,
+    "check_body": "<title>TriageAgent</title>"
   }
 ]
