@@ -53,5 +53,11 @@
     "timeout": 60,
     "retries": 2,
     "check_body": "<title>TriageAgent</title>"
+  },
+  {
+    "url": "https://eholt723-reposignal.hf.space/",
+    "timeout": 60,
+    "retries": 2,
+    "check_body": "<title>Reposignal</title>"
   }
 ]
