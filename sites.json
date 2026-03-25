@@ -59,5 +59,17 @@
     "timeout": 60,
     "retries": 2,
     "check_body": "<title>Reposignal</title>"
+  },
+  {
+    "url": "https://eholt723-docsignal.hf.space/",
+    "timeout": 60,
+    "retries": 2,
+    "check_body": "<title>Docsignal</title>"
+  },
+  {
+    "url": "https://eholt723-dailysignal.hf.space/",
+    "timeout": 60,
+    "retries": 2,
+    "check_body": "<title>Dailysignal</title>"
   }
 ]
