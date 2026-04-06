@@ -66,10 +66,16 @@
     "retries": 2,
     "check_body": "<title>Dailysignal</title>"
   },
-    {
+  {
     "url": "https://eholt723-supportdesk.hf.space/",
     "timeout": 60,
     "retries": 2,
     "check_body": "<title>SupportDesk</title>"
+  },
+  {
+    "url": "https://eholt723-evalboard.hf.space/",
+    "timeout": 60,
+    "retries": 2,
+    "check_body": "<title>EvalBoard</title>"
   }
 ]
