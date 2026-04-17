@@ -77,5 +77,11 @@
     "timeout": 60,
     "retries": 2,
     "check_body": "<title>EvalBoard</title>"
+  },
+  {
+    "url": "https://eholt723-commdesk.hf.space/",
+    "timeout": 60,
+    "retries": 2,
+    "check_body": "<title>CommDesk</title>"
   }
 ]
