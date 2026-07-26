@@ -10,10 +10,11 @@ import requests
 SITES_FILE = "sites.json"
 STATE_FILE = "state.json"
 
-GMAIL_ADDRESS = os.environ["GMAIL_ADDRESS"]
-GMAIL_APP_PASSWORD = os.environ["GMAIL_APP_PASSWORD"]
-ALERT_EMAIL = os.environ["ALERT_EMAIL"]
-ALERT_SMS = os.environ["ALERT_SMS"]
+ALERTS_ENABLED = os.environ.get("ALERTS_ENABLED", "true").lower() == "true"
+GMAIL_ADDRESS = os.environ.get("GMAIL_ADDRESS", "")
+GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD", "")
+ALERT_EMAIL = os.environ.get("ALERT_EMAIL", "")
+ALERT_SMS = os.environ.get("ALERT_SMS", "")
 
 
 def load_json(path, default):
@@ -59,6 +60,9 @@ def check_site(site):
 
 
 def send_alert(subject, body):
+    if not ALERTS_ENABLED:
+        print(f"       -> alerts disabled, skipping: {subject}")
+        return
     msg = MIMEText(body)
     msg["Subject"] = subject
     msg["From"] = GMAIL_ADDRESS
